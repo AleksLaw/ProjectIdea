@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Clie" />
+        <module name="client" />
+        <module name="clientserver" />
+        <module name="Serv" />
+        <module name="server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Clie" target="11" />
+      <module name="client" target="11" />
+      <module name="clientserver" target="1.5" />
+      <module name="SC" target="1.5" />
+      <module name="Serv" target="11" />
+      <module name="server" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

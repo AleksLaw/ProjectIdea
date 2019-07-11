@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SC/Clie/Clie.iml" filepath="$PROJECT_DIR$/SC/Clie/Clie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProjectIdea.iml" filepath="$PROJECT_DIR$/.idea/ProjectIdea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC/SC.iml" filepath="$PROJECT_DIR$/SC/SC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SC/Serv/Serv.iml" filepath="$PROJECT_DIR$/SC/Serv/Serv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JD2-61-19-master/clientserver/client/client.iml" filepath="$PROJECT_DIR$/JD2-61-19-master/clientserver/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JD2-61-19-master/clientserver/clientserver.iml" filepath="$PROJECT_DIR$/JD2-61-19-master/clientserver/clientserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JD2-61-19-master/clientserver/server/server.iml" filepath="$PROJECT_DIR$/JD2-61-19-master/clientserver/server/server.iml" />
+    </modules>
+  </component>
+</project>
