@@ -14,7 +14,7 @@ public class Server {
         try {
             serverSocket = new ServerSocket(9999);
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Серврерный сокет порт 9999 закрыт или занят");
         }
 
 
