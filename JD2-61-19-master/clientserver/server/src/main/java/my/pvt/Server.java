@@ -10,9 +10,16 @@ public class Server {
 
     public static void main(String[] args)  {
         ServerSocket serverSocket = null;
+
         try {
-        do {
-                serverSocket = new ServerSocket(9999);
+            serverSocket = new ServerSocket(9999);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        try {
+            do {
                 clientSocet = serverSocket.accept();
             new Thread(new MyThread()).start();
         } while (true);
