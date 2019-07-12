@@ -3,8 +3,6 @@ package my.pvt;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.net.ServerSocket;
-import java.net.Socket;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
@@ -13,21 +11,7 @@ import java.util.GregorianCalendar;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class Server {
-    static Socket clientSocet;
-    static int count = 1;
-
-    public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(9999);
-        do {
-            clientSocet = serverSocket.accept();
-            new Thread(new MyThread()).start();
-        } while (true);
-    }
-
-
-}
-class MyThread implements Runnable {
+public class MyThread implements Runnable {
 
 
     @Override

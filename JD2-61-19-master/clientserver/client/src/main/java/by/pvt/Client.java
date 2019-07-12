@@ -18,11 +18,13 @@ public class Client {
             DataInputStream dis = new DataInputStream(socket.getInputStream());
 
             String serverInput = dis.readUTF();
+
             System.out.println(serverInput);
 
             Scanner scanner = new Scanner(System.in);
             String line = "";
             do {
+
                 line = scanner.nextLine();
                 dos.writeUTF(line);
                 dos.flush();
