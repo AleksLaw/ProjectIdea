@@ -28,7 +28,7 @@ public class MyThread implements Runnable {
             String qw;
 
             do {
-                dos.writeUTF("\r1 - Count up to 25 \n" +
+                dos.writeUTF("\r1 - Count up to 10 \n" +
                         "\r" + "2 - Get Date and Time\n\r" +
                         "\r" + "3 - Next time and how many are left\n\r" +
                         "\r" + "4 - Exit\n\r" +
@@ -44,7 +44,7 @@ public class MyThread implements Runnable {
 
                 switch (wer) {
                     case 1:
-                        for (int i = 1; i <= 25; i++) {
+                        for (int i = 1; i <= 10; i++) {
                             dos.writeUTF(i + "\r\n");
                             Thread.sleep(200);
                         }
@@ -80,9 +80,10 @@ public class MyThread implements Runnable {
             } while (true);
 
         } catch (IOException | InterruptedException e) {
-            e.printStackTrace();
+            System.out.println("Соединение прервано: Поток");
         }
     }
+
     private SortedSet<GregorianCalendar> getGregorianCalendars() {
         SortedSet<GregorianCalendar> set = new TreeSet<>();
 
